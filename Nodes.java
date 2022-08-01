@@ -1,8 +1,6 @@
 package com.bridgelab.linklist;
 
-
-
-	public class Nodes<D> {
+public class Nodes<D> {
 
 		private D data;
 	

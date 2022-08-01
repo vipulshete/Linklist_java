@@ -1,6 +1,5 @@
 package com.bridgelab.linklist;
 
-import com.bridege.linklist.Nodes;
 
 public class Main {
 
@@ -10,6 +9,12 @@ public class Main {
 		Nodes<Integer> secondNode = new Nodes<>(30);
 		
 		Nodes<Integer> thirdNode = new Nodes<>(70);
+		
+		SimpleLinkList<Integer> simpleLinkedList = new SimpleLinkList<>();
+		
+		simpleLinkedList.add(firstNode);
+		simpleLinkedList.add(secondNode);
+		simpleLinkedList.add(thirdNode);
 
 	}
 
